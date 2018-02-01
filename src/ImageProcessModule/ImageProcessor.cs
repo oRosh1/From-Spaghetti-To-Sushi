@@ -11,7 +11,7 @@ namespace ImageProcessModule
         {
             byte[] photoBytes = File.ReadAllBytes(path);
             string name = Path.GetFileNameWithoutExtension(path);
-            string target = $@"{path}\{name}.jpg";
+            string target = $@"{dest}\{name}.jpg";
             Console.WriteLine(name);
 
             using (var outStream = new FileStream(target, FileMode.Create))

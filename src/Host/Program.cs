@@ -26,7 +26,7 @@ namespace Host
                     .As<ILogic>()
                     .SingleInstance();
             builder.RegisterType<ImageProcessor>()
-                    .As<IProcessImage>()
+                   
                   .SingleInstance();
             var container = builder.Build();
             return container;
