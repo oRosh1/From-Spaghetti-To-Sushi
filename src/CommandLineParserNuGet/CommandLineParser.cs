@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace CommandLineParserNuGet
 {
-    class CommandLineParser
+   public class CommandLineParser
     {
         private readonly IDictionary<string, string> _commands;
 

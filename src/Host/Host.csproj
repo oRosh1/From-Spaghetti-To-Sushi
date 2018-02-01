@@ -9,4 +9,42 @@
     <OutputPath>C:\Users\USER\Documents\Visual Studio 2017\Projects\FromSpagehettiToSushi\From-Spaghetti-To-Sushi\src\Build\Host</OutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageProcessingContracts\ImageProcessingContracts.csproj" />
+    <ProjectReference Include="..\ImageProcessModule\ImageProcessModule.csproj" />
+    <ProjectReference Include="..\LogicContracts\LogicContracts.csproj" />
+    <ProjectReference Include="..\LogicModule\LogicModule.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\Src\Bird.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Src\cheetah.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Src\Elephant.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Src\flamingo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Src\hyena.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Src\Lion.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Src\lioness.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Images\Src\Massi.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

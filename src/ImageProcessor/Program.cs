@@ -5,7 +5,7 @@ using System.IO;
 
 namespace ImageProcessor
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
